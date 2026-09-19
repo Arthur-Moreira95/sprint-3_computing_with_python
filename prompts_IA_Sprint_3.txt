@@ -1,5 +1,4 @@
-PELÉ NEXT GEN — PROMPTS DE IA GENERATIVA UTILIZADOS NA SPRINT 3
-========================================================================
+PELÉ NEXT GEN — PROMPTS DE IA UTILIZADOS NA SPRINT 3
 
 Integrantes:
 Arthur Moreira — RM 571532
@@ -7,65 +6,79 @@ Miguel Montalvão — RM 573825
 Pedro Provadelli — RM 572547
 Vitor Louzano — RM 573885
 
-Observação: os prompts abaixo foram estruturados para representar o uso da IA como ferramenta de apoio ao desenvolvimento. A equipe deve adaptar os prompts ao MVP e ao código realmente desenvolvido e validar manualmente as sugestões recebidas.
+Os prompts abaixo foram usados como apoio durante o desenvolvimento da Sprint 3. A ideia foi usar a IA principalmente para tirar dúvidas, organizar as ideias, revisar o código e conferir se o que foi feito estava de acordo com o que a atividade pedia. Depois das sugestões, a equipe conferiu e fez as alterações necessárias no próprio projeto.
 
-Prompt 1 — Entender os requisitos da Sprint 3
----------------------------------------------
-Estou desenvolvendo o projeto Pelé Next Gen para uma atividade acadêmica. Na Sprint 3, o código Python deve funcionar como o gêmeo lógico do MVP Visual. Os requisitos são: espelhar os fluxos das telas, usar estruturas de dados adequadas, criar navegação sincronizada com while/input, implementar validações com if/elif/else e modularizar as ações em funções. Explique esses requisitos em linguagem simples e transforme-os em uma checklist para eu conferir no meu próprio código. Não escreva o projeto inteiro.
 
-Prompt 2 — Mapear telas para funções Python
--------------------------------------------
-Tenho um MVP Visual do projeto Pelé Next Gen. Quero transformar cada ação das telas em uma função Python correspondente. Mostre como fazer um mapeamento entre tela, ação do usuário, dados necessários, função Python, entrada, processamento e saída. Use exemplos de cadastro de atleta, listagem e dashboard, mas deixe claro o que preciso adaptar ao meu protótipo real.
+PROMPT 1 — ENTENDER O QUE A SPRINT PEDE
 
-Prompt 3 — Planejar as estruturas de dados
-------------------------------------------
-Preciso organizar em Python os dados que aparecem nas telas do MVP Visual do Pelé Next Gen. Explique como decidir quando usar lista, dicionário e matriz. Considere um cadastro de atleta com informações pessoais e indicadores de desempenho. Proponha uma estrutura simples e explique o motivo de cada escolha, sem criar código desnecessário.
+Estou fazendo a Sprint 3 do projeto Pelé Next Gen. Pelo que entendi, o Python precisa funcionar como a parte lógica do nosso MVP Visual. Me explica de um jeito simples o que a atividade está pedindo e o que eu preciso conferir no código para não esquecer nenhum requisito. Não faça o projeto inteiro.
 
-Prompt 4 — Revisar o cadastro de atleta
----------------------------------------
-Vou implementar a função de cadastro de atleta do Pelé Next Gen. Ajude-me a conferir se os campos solicitados no terminal correspondem aos campos da tela do MVP Visual. Crie uma checklist de conferência e indique validações que normalmente seriam necessárias, como campos vazios, idade e valores numéricos. Quero entender a lógica para implementar eu mesmo.
 
-Prompt 5 — Criar validações de entrada
---------------------------------------
-Explique como implementar validações usando if/elif/else para um cadastro de atleta em Python. Preciso impedir dados inválidos sem deixar o programa quebrar. Mostre exemplos pequenos de validação de idade, nota de avaliação e campos obrigatórios e explique cada parte para que eu consiga adaptar ao meu código.
+PROMPT 2 — LIGAR AS TELAS AO PYTHON
 
-Prompt 6 — Planejar o menu interativo
--------------------------------------
-Meu Python precisa reproduzir a jornada lógica do MVP Visual. Explique como montar um menu usando while e input, permitindo cadastrar atleta, listar atletas, buscar atleta, analisar desempenho e sair. Quero primeiro a lógica do fluxo e depois um exemplo simples, sem transformar isso em um sistema completo.
+Tenho um MVP Visual do Pelé Next Gen e preciso fazer a parte do Python acompanhar as telas. Como posso pegar cada ação que o usuário faz no protótipo e transformar isso em uma função no Python? Usa cadastro de atleta, listagem e dashboard como exemplos.
 
-Prompt 7 — Modularizar o código
--------------------------------
-Analise esta ideia de estrutura para um programa Python: menu principal, cadastro, listagem, busca e análise de desempenho. Explique como separar essas responsabilidades em funções com parâmetros e retornos. Mostre erros comuns de modularização que um aluno pode cometer e como evitá-los.
 
-Prompt 8 — Criar indicadores do dashboard
------------------------------------------
-Preciso que o terminal calcule os mesmos indicadores de desempenho que aparecem no dashboard do MVP Visual do Pelé Next Gen. Explique como identificar os indicadores usados pela interface e como transformar cada cálculo em uma função. Não invente indicadores que não estejam no protótipo; mostre como deixar a estrutura preparada para eu inserir os indicadores reais.
+PROMPT 3 — ESCOLHER AS ESTRUTURAS DE DADOS
 
-Prompt 9 — Conferir sincronia entre interface e código
-------------------------------------------------------
-Quero fazer uma revisão do meu MVP Visual e do código Python do Pelé Next Gen. Crie uma tabela de auditoria com: tela do MVP, ação, campos, regra de negócio, resultado esperado e função Python responsável. O objetivo é encontrar funcionalidades que existem na interface mas ainda não foram implementadas no terminal.
+No nosso projeto vamos guardar informações de atletas, peneiras e avaliações. Me explica onde faz mais sentido usar listas, dicionários e matrizes e por quê. Quero uma estrutura simples que esteja dentro do que estamos aprendendo em Python.
 
-Prompt 10 — Revisar código sem depender da IA
----------------------------------------------
-Vou enviar meu código Python da Sprint 3. Faça uma revisão técnica focada nos critérios da atividade: sincronia com o MVP Visual, listas/dicionários/matrizes, modularização, menu, validações e execução sem erros. Para cada problema, explique o motivo e indique o que eu deveria alterar, mas não reescreva tudo automaticamente. Quero conseguir fazer as alterações e entender o código.
 
-Prompt 11 — Testes manuais
---------------------------
-Crie um roteiro de testes manuais para o Pelé Next Gen no terminal. Quero testar cadastro válido, cadastro com dados inválidos, listagem, busca, análise de desempenho, retorno ao menu e encerramento. Para cada teste, informe entrada, resultado esperado e o que devo verificar.
+PROMPT 4 — CONFERIR O CADASTRO
 
-Prompt 12 — Identificar possíveis erros
----------------------------------------
-Quero aprender a encontrar erros no meu próprio código Python. Dado um programa com menu while, input, listas, dicionários, funções e condicionais, liste os erros mais comuns que podem fazer o sistema quebrar ou produzir resultados incorretos. Explique como eu mesmo posso testar cada situação.
+Já estou fazendo o cadastro de atleta do Pelé Next Gen. Quero conferir se os campos do terminal estão de acordo com o que aparece no MVP Visual. Me ajuda a montar uma lista do que preciso conferir e quais validações seriam importantes.
 
-Prompt 13 — Melhorar sem fugir do nível da disciplina
------------------------------------------------------
-Revise a solução do Pelé Next Gen considerando que ela será avaliada como um projeto acadêmico de Python. Quero melhorias que sejam compatíveis com conhecimentos de listas, dicionários, matrizes, funções, while, input e if/elif/else. Evite bibliotecas avançadas ou soluções que escondam a lógica que precisamos demonstrar.
 
-Prompt 14 — Checklist final da Sprint 3
----------------------------------------
-Monte uma checklist final para eu verificar antes de entregar a Sprint 3 do Pelé Next Gen. Inclua: correspondência entre MVP Visual e Python, campos de cadastro, estruturas de dados, menu, funções, validações, cálculos, testes, organização dos arquivos e README. A checklist deve ajudar a equipe a validar o trabalho sem depender da IA.
+PROMPT 5 — VALIDAR OS DADOS
 
-Prompt 15 — Revisão final orientada pelos critérios
----------------------------------------------------
-Considere os critérios da Sprint 3: 30 pontos para sincronia com o MVP Visual, 25 para estruturas de dados, 20 para modularização e 15 para lógica/execução. Quero uma revisão orientada por esses critérios. Não dê uma nota nem diga qual solução é melhor; apenas aponte evidências que devo procurar no código e no MVP para verificar se cada requisito foi atendido.
+Me explica como posso usar if, elif e else para validar os dados que entram no cadastro e na avaliação de atletas. Quero exemplos simples para idade, notas e campos obrigatórios, para depois adaptar ao meu código.
 
+
+PROMPT 6 — MONTAR O MENU
+
+Preciso fazer um menu no terminal usando while e input para acompanhar a lógica do nosso MVP. No menu temos cadastro de atleta, peneiras, inscrição, avaliação, dashboard, ranking, comparador e desempenho. Me ajuda a organizar a lógica desse menu sem fazer o sistema inteiro por mim.
+
+
+PROMPT 7 — SEPARAR O CÓDIGO EM FUNÇÕES
+
+Meu código está começando a ficar grande e quero separar melhor as partes. Me explica como posso deixar cadastro, listagem, busca, avaliação e análise em funções diferentes e quando faz sentido usar parâmetros e return.
+
+
+PROMPT 8 — FAZER OS CÁLCULOS DO DASHBOARD
+
+No MVP Visual temos informações de desempenho dos atletas. Como posso identificar quais dados precisam ser calculados no Python e transformar esses cálculos em funções? Quero entender a lógica antes de colocar no código.
+
+
+PROMPT 9 — COMPARAR O MVP COM O PYTHON
+
+Quero conferir se o nosso Python realmente acompanha o MVP Visual. Me ajuda a montar uma tabela simples para eu comparar cada tela, o que o usuário faz nela, quais dados são usados e qual parte do Python faz essa função.
+
+
+PROMPT 10 — REVISAR MEU CÓDIGO
+
+Vou mandar meu código da Sprint 3. Quero que você procure problemas principalmente em listas, dicionários, matrizes, funções, menu, validações e na lógica geral. Em vez de reescrever tudo, me explica o que está errado e como eu posso corrigir.
+
+
+PROMPT 11 — TESTAR O PROGRAMA
+
+Quero testar o Pelé Next Gen antes de entregar. Monta alguns testes que eu possa fazer manualmente no terminal, incluindo cadastro correto, cadastro com erro, inscrição, avaliação, dashboard e saída do programa. Quero saber o resultado que deveria aparecer em cada teste.
+
+
+PROMPT 12 — PROCURAR ERROS
+
+Quero aprender a encontrar os erros do meu próprio código. Pensando em um programa com while, input, listas, dicionários, funções e if/elif/else, quais erros eu deveria procurar primeiro? Explica de uma forma que eu consiga testar sozinho.
+
+
+PROMPT 13 — NÃO COMPLICAR O CÓDIGO
+
+Revise a ideia do nosso projeto pensando no nível de uma atividade de faculdade em Python. Quero saber se tem alguma parte desnecessariamente complicada ou que usa algo que não precisamos. A solução deve mostrar que entendemos listas, dicionários, matrizes, funções, while, input e condicionais.
+
+
+PROMPT 14 — CONFERÊNCIA ANTES DA ENTREGA
+
+Me ajuda a montar uma checklist para revisar a Sprint 3 antes de entregar. Quero conferir o MVP Visual, o Python, os campos de cadastro, estruturas de dados, funções, menu, validações, cálculos, testes, README e o arquivo com os prompts.
+
+
+PROMPT 15 — CONFERIR OS CRITÉRIOS
+
+Quero conferir nosso projeto usando os critérios da Sprint 3: sincronia com o MVP Visual, estruturas de dados, modularização e lógica/execução. Não quero uma nota. Só quero saber o que devo procurar no nosso código para verificar se cada parte da atividade foi realmente atendida.
